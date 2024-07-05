@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+    width: auto;
+
+}
+
+.navbar {
+    height: 2.5vw;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    /* padding-left: 1px; */
+    
+}
+
+.heading h1 {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.list ul {
+    display: flex;
+    gap: 3.5vw;
+    margin-right: 15px;
+    
+}
+
+.list ul li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+.list ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+.Espace{
+    height: 2.5vw;
+    width: 98.5%;
+}
+.Box{
+    height: 60vh;
+    width: 20vw;
+    background-color: rgb(248, 225, 248);
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    margin-top: 10vh;
+    margin-left: 40%;
+}
+.Box1{
+    margin-left: 25px;
+}
+.Box1 p{
+    margin-top: 3px;
+    font-size: 13px;
+}
+.Box h2{
+    color: purple;
+}
+.login{
+    color: white;
+    background-color: purple;
+    height: 4vh;
+    width: 13vw;
+}
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+.icons i{
+    color: purple;
+}
+.fempty{
+    height: 5vh;
+}
+.f_content{
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
+}
+.f_content2{
+    display: flex;
+    justify-content: center;
+}

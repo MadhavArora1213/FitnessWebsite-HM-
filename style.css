@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+    width: auto;
+
+}
+
+.navbar {
+    height: 2.5vw;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    /* padding-left: 1px; */
+    
+}
+
+.heading h1 {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.list ul {
+    display: flex;
+    gap: 3.5vw;
+    margin-right: 15px;
+    
+}
+
+.list ul li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+.list ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+.Espace{
+    height: 2.5vw;
+    width: 98.5%;
+}
+
+.container{
+    height: 70vh;
+    width: 96vw;
+    background-color: lightgray;
+    margin: 40px auto;  
+    display: flex; 
+}
+
+.c_left{
+    width: 40vw;
+    height: 70vh;
+}
+.c_right{
+    width: 56vw;
+    height: 70vh;
+}
+.content{
+    margin-top: 20vh;
+}
+.content h1{
+    color: purple;
+}
+.btn button{
+    width: 6vw;
+    height: 5vh;
+    background-color: purple;
+    border-radius: 5px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.second{
+    height: 60vh;
+    width: 90vw;
+    margin: 20px auto;
+    margin-top: 100px;
+    display: flex;
+}
+.s_right{
+    padding-left: 40px;
+}
+.third{
+    height: 60vh;
+    width: 90vw;
+    margin: 10px auto;
+    display: flex;
+}
+.t_left{
+    height: 60vh;
+    width: 60vw;
+    padding-right: 40px;
+}
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.icons i{
+    color: purple;
+}
+.fempty{
+    height: 5vh;
+}
+.f_content{
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
+}
+.f_content2{
+    display: flex;
+    justify-content: center;
+}
